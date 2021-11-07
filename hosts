@@ -18,7 +18,7 @@
 
 # Ex 2: A collection of hosts belonging to the 'webservers' group:
 
-[webservers]
+[webserver]
 ubuntu@18.191.246.26 ansible_ssh_private_key_file=~/Downloads/slave-key.pem
 
 ubuntu@3.137.167.75 ansible_ssh_private_key_file=~/Downloads/new-key.pem
